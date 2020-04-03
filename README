@@ -1,0 +1,9 @@
+APIs Used:
+    GCP CloudBuild API
+
+Requirements:
+    Flask
+    Pylint
+
+Virtual Environment:
+    source ~/.ccproject/bin/activate
