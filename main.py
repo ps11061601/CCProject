@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 # If `entrypoint` is not defined in app.yaml, App Engine will look for an app
 # called `app` in `main.py`.
@@ -7,8 +7,14 @@ app = Flask(__name__)
 # Routes
 @app.route('/')
 def hello():
-    """Return a friendly HTTP greeting."""
-    return 'Hello, this is our project!'
+    """Main Web-Page"""
+    return render_template("home.html")
+
+
+@app.route('/About')
+def about():
+    return"""
+    """
 
 
 if __name__ == '__main__':
