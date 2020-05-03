@@ -44,7 +44,7 @@ color: white;
 .button {
   margin: 0;
   position: absolute;
-  top: 75%;
+  top: 82%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);  
@@ -65,9 +65,10 @@ color: white;
 }
 
 h2{
-    position: relative; 
+    
+    text-align: left;
 	top: 10px;
-	left: 195px;
+	
 }
 </style>
 
@@ -86,12 +87,13 @@ h2{
 </div>
 
 <img src= "https://i.ibb.co/hZ99PGp/airbnbpic.png" alt="Airbnb image" class="center">
-<div class="container" style="width:25%">
+<div class="container" style="width:25%;height:50px">
             <p>
                 <a href="{{ url_for('predict') }}" class="button">Make a Prediction</a>
             </p>
     </div>
-        
+<h4>Airbnb's have been an efficient and cost-saving option that offers individuals traveling opportunities and personalized ways of experiencing the world!</h4>
+
 </body>
 
 </html>
