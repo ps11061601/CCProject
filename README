@@ -1,3 +1,20 @@
+# Final Team Project DSBA 6190 Cloud Computing- Airbnb Predictions
+
+Our goal for this project was to explore the cost effectiveness of Airbnb's based on several features. We hope to meticulously work through varying ML algorithms to make optimal predictions for individuals to have a great Airbnb experience.
+
+Our application includes interactive capabilities for users to input information in regard to their airbnb preferences:
+
+Our application was hosted on the Google Cloud Platform with the integration of Flask for the backend portion and HTML/CSS for the frontend portion.
+
+We built a PaaS machine learning prediction model and deployed it in a scalable, and elastic platform:
+
+Our ML Framework consisted of Sklearn, and other vital libraries.
+
+We used a supervised ML Kaggle Prediction Model
+
+For our platform we utilized Flask and Google App Engine Platform
+
+
 App Url: 
     https://airbnbpredictor.appspot.com
 
