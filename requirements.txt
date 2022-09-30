@@ -4,6 +4,6 @@ Flask==1.1.1
 docker-compose==1.25.4
 pandas
 sklearn==0.0
-joblib==0.14.1
+joblib==1.2.0
 wtforms==2.2.1
 locust
